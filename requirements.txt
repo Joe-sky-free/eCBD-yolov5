@@ -1,0 +1,19 @@
+# 基础依赖
+torch>=1.7.0
+torchvision>=0.8.1
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow>=7.1.2
+PyYAML>=5.3.1
+scipy>=1.4.1
+tensorboard>=2.2.1
+pandas>=1.1.4
+seaborn>=0.11.0
+tqdm>=4.41.0
+requests>=2.23.0
+thop>=0.1.1
+
+# 可选依赖
+protobuf<=3.20.1  # 用于TensorRT
+pycocotools>=2.0  # COCO评估工具    

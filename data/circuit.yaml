@@ -1,0 +1,8 @@
+# 电路板缺陷检测数据集
+train: ../datasets/circuit/train/images  # 训练集路径
+val: ../datasets/circuit/val/images      # 验证集路径
+test: ../datasets/circuit/test/images    # 测试集路径
+
+# 类别数量和类别名称
+nc: 6
+names: ['missing_hole', 'pad_pollution', 'burn_marks', 'crack', 'pin_hole', 'component_missing']    
